@@ -2,7 +2,7 @@
 import {useNavigate} from "react-router-dom"
 
 import { useState, } from "react";
-import "./Sport.css"
+
 const Sports = () => {
   const navigate=useNavigate();
   const[roomId,setroomId]=useState('')
