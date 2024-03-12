@@ -1,0 +1,120 @@
+.hell{
+  background-color: #000000;
+/* Use flex to arrange the children horizontally */
+  height: 100vh; /* Set height to full viewport height */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.hell::-webkit-scrollbar {
+  width: 1px;
+}
+
+.hell::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a;
+}
+.sidebar {
+  width: 20%;
+ background-color: #010f18;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 100vh;
+  margin-right: 1px;
+}
+
+.container {
+  margin-top: 350px;
+  width:100%;
+  flex: 1;
+  border: 1px solid #000000;
+  overflow: hidden;
+  position: relative; /* Add this line */
+}
+.rectangular-box {
+  position: absolute;
+  top: 73px;
+  /* Adjust the top position as needed */
+  right: 0px;
+  /* Adjust the right position as needed */
+  width: 80%;
+  /* Adjust the width as needed */
+  height: 352px;
+  /* Adjust the height as needed */
+  background-color:hsl(210, 11%, 15%);
+  color: rgb(79, 224, 178);
+  padding: 30px;
+  box-sizing: border-box;
+  z-index: 2;
+  --_spacer: var(--size-3);
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 41%;
+
+ 
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  /* Enable horizontal scrolling */
+  scrollbar-width: thin; /* for Firefox */
+  scrollbar-color: #302b3b rgb(65, 65, 69);
+}
+.scroll-box {
+  height: 100%;
+  overflow-y: auto;
+  width:100%;
+  padding: 10px;
+  padding-bottom: 0px;
+  background-color:hsl(210, 11%, 15%);
+}
+.rect-box {
+  background-color:rgb(65, 65, 69);
+  padding: 30px;
+  margin-top: 1px;
+  
+  margin-right: 20px;
+  height: 80%;
+  border-radius: 15px;
+  
+
+}
+
+
+.content-box1{
+  background-color:rgb(65, 65, 69);
+  padding: 10px;
+  
+  margin-bottom: 10px;
+  height: 200px;
+  border-radius: 15px;
+  
+}
+.content-box2{
+  background-color:rgb(65, 65, 69);
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 300px;
+  border-radius: 15px;
+  border-radius: 25px;
+  border: 1px solid #4438f0;
+}
+.sidebar::-webkit-scrollbar {
+  width: 1px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #ff0000, #ff7f00, #0000ff, #4b0082, #8b00ff);
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 1px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a;
+}
+
