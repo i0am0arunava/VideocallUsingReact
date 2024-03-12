@@ -1,5 +1,6 @@
-import {useNavigate,Routes,Route} from "react-router-dom"
-import Room from "./Room";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import {useNavigate} from "react-router-dom"
+
 import { useState, } from "react";
 import "./Sport.css"
 const Sports = () => {
